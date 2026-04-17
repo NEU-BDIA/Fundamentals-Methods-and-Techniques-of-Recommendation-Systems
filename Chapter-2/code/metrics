@@ -16,6 +16,7 @@ class Hit(TopkMetric):
         return (result > 0).astype(int)
 
 
+
 class MRR(TopkMetric):
 
     def __init__(self, config):
